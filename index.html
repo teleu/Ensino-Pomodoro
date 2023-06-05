@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercícios HTML</title>
+  <link rel="stylesheet" type="text/css" href="global.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+        <button onclick="reiniciarpomodoro()">Pomodoro</button>
+        <button onclick ="pequenaPausa()">Pequena Pausa</button>
+        <button onclick="longaPausa()">Longa Pausa</button><br>
+    </nav>
+    <div class="timer" id="timer">25:00</div>
+    <button id="startButton" onclick="start()">Começar</button>
+    <button id="pauseButton" onclick="pause()" style="display: none;">Pausar</button>
+    <button id="resumeButton" onclick="resume()" style="display: none;">Retomar</button>
+    <section id="conteudo"></section>
+    <script src="script.js"></script>
+    <script>document.getElementById("pomodoroButton").classList.add("clicked");</script>
+  </div>
+</body>
+</html>
