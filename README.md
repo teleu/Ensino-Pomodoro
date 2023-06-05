@@ -3,9 +3,7 @@
 🧪 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-HTML
-CSS
-JAVASCRIPT
+HTML, CSS & JAVASCRIPT
 
 💻 Projeto
 O método de Pomodoro foi feito para otimizar seus estudos de forma inteligente.
